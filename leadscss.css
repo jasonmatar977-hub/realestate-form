@@ -15,9 +15,13 @@ h1 {
   margin-top: 40px;
   margin-bottom: 30px;
   text-transform: uppercase;
-  border-bottom: 3px solid #007BFF;
+  border-bottom: 4px solid #007BFF;
   display: block;
   position: relative;
+}
+.container {
+  width: 70%;
+  margin: auto;
 }
 
 /* Center only the form, not the title */
