@@ -1,0 +1,84 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading style */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: red;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #007BFF;
+  display: block;
+  position: relative;
+}
+
+/* Center only the form, not the title */
+form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 60px auto;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs and selects */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 4px rgba(0,123,255,0.3);
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Description text */
+p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  text-align: center;
+}
